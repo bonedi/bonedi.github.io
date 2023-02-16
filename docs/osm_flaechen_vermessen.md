@@ -1,10 +1,10 @@
 ### Parkplatz Flächen vermessen mit Openstreetmaps  
 
 Openstreetmaps (OSM) hat viele offene Informationen zu geographischen Objekten. So zum Beispiel Flächen wie Parkplätzen. Das kann man schon auf der [Website](openstreetmap.org) sehen. Dazu muss man recht nah an ein Objekt (Parkplatz) ranzoomen. Dann rechtsklicken und auf "Objektanfrage" klicken. Dort sind nun mehrere benachbarte oder umschließende Objekte zu sehen.  
-![image](assets/img/objektabfrage.png)  
+![image](./assets/img/objektabfrage.png)  
 
 Es ist jeweils beschrieben um was für ein Objekt es sich handelt z.B. Parkplatz, Zufahrtsstraße oder Einzelhandelsgebäude. Dazu jeweils eine ID. Klickt man auf die ID, so erhält man zusätzliche Informationen. Unter [Tags](https://wiki.openstreetmap.org/wiki/Tags) sind einige Key-Value Paare gelistet. Die wichtigsten für diese Zwecke sind "amenity", was uns anzeigt, wenn es ="parking" ist, dass es sich um einen Parkplatz handelt, und "parking". Dies gibt die Parkplatzart an. Diese sind [hier](https://wiki.openstreetmap.org/wiki/DE:Key:parking?uselang=de) zu finden. Darüberhinaus sind noch die Knoten zu finden. Jede Fläche (bei OSM Way genannt) besteht aus mehreren Knoten. Diese geben die Eckpunkte der Fläche an.  
-![image](assets/img/osm_parkplatz.png)  
+![image](./assets/img/osm_parkplatz.png)  
 Die Eckpunkte sind wiederrum eigene OSM-Objekte. Das bringt uns den Vorteil, dass wir all das über die OSM-Api abfragen können. Wie das funktioniert wird im folgenden beschrieben.  
 
 Zunächst benötigen wir das Modul [OSMPythonTools](https://pypi.org/project/OSMPythonTools/). Genauer gesagt die Klasse Api aus diesem Modul. 
