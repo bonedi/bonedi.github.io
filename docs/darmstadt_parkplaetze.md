@@ -1,4 +1,4 @@
-Es ist bekannt, dass Autos recht viel Platz in einer Stadt einnehmen. Jedoch ist auf den ersten Blick nicht bewusst wie viel genau. Um diese Frage zu beantworten, kann man alle (eingepflegten) Parkplätze einer Stadt in Openstreetmaps ausfindigt machen und vermessen. Wie das geht habe ich [hier](./alle.html) für Darmstadt gezeigt. Nun wollen wir uns die Daten mal genauer ansehen und ins Verhältnis setzen.  
+Es ist bekannt, dass Autos recht viel Platz in einer Stadt einnehmen. Jedoch ist auf den ersten Blick nicht bewusst wie viel genau. Um diese Frage zu beantworten, kann man alle (eingepflegten) Parkplätze einer Stadt in Openstreetmaps ausfindigt machen und vermessen. Wie das geht habe ich [hier](./alle_parkplaetze_vermessen.html) für Darmstadt gezeigt. Nun wollen wir uns die Daten mal genauer ansehen und ins Verhältnis setzen.  
 Zunächst schauen wir uns die Daten an und gucken, welche Parkplätze ermittelt wurden und welche nicht. 
 
 
