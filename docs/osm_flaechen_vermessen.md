@@ -1,6 +1,6 @@
 ### Parkplatz Flächen vermessen mit Openstreetmaps  
 
-Openstreetmaps (OSM) hat viele offene Informationen zu geographischen Objekten. So zum Beispiel Flächen wie Parkplätzen. Das kann man schon auf der [Website](openstreetmap.org) sehen. Dazu muss man recht nah an ein Objekt (Parkplatz) ranzoomen. Dann rechtsklicken und auf "Objektanfrage" klicken. Dort sind nun mehrere benachbarte oder umschließende Objekte zu sehen.  
+Openstreetmaps (OSM) hat viele offene Informationen zu geographischen Objekten. So zum Beispiel Flächen wie Parkplätzen. Das kann man schon auf der [Website](https://openstreetmap.org) sehen. Dazu muss man recht nah an ein Objekt (Parkplatz) ranzoomen. Dann rechtsklicken und auf "Objektanfrage" klicken. Dort sind nun mehrere benachbarte oder umschließende Objekte zu sehen.  
 
 ![image](./assets/img/objektabfrage.PNG)  
 

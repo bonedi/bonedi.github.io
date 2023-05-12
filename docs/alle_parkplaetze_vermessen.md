@@ -1,6 +1,6 @@
 ## Alle Parkplatz Flächen einer Stadt  
 
-Wie man einzelne (Parkplatz) Flächen mittels Openstreetmap (OSM) und deren API berechnen kann, habe ich bereits [hier](pp_vermessen.html) gezeigt. Nun geht es darum alle Parkplatz Fächen einer Stadt zu berechnen. Dazu bedient man sich der [Overpass Api](http://overpass-api.de/). Diese ist ziemlich umfangreich, weshalb ich hier nur auf die für die Zwecke notwenigen Funktionen eingehen werde. Zunächst einmal benötigen wir die AreaID der Stadt. Dazu nutzen wir Nominatim, hierbei kann man eine OSM-Objekt ID über deren Namen suchen. In diesem Fall "Darmstadt, Germany":
+Wie man einzelne (Parkplatz) Flächen mittels Openstreetmap (OSM) und deren API berechnen kann, habe ich bereits [hier](osm_flaechen_vermessen.html) gezeigt. Nun geht es darum alle Parkplatz Fächen einer Stadt zu berechnen. Dazu bedient man sich der [Overpass Api](http://overpass-api.de/). Diese ist ziemlich umfangreich, weshalb ich hier nur auf die für die Zwecke notwenigen Funktionen eingehen werde. Zunächst einmal benötigen wir die AreaID der Stadt. Dazu nutzen wir Nominatim, hierbei kann man eine OSM-Objekt ID über deren Namen suchen. In diesem Fall "Darmstadt, Germany":
 
 
 ```python
@@ -1055,7 +1055,7 @@ Die Daten können nun für eine weitere Verwendung zunächst gespeichert werden
 df.to_csv('darmstadt_parkplaetze.csv', index = False)
 ```
 
-Zudem kann mit dem Paket folium eine Karte mit allen gefundenen Parkplätzen und deren Größe geplottet werden. Das Ergebnis ist [hier](./maps/Darmstadt.html) zu sehen
+Zudem kann mit dem Paket folium eine Karte mit allen gefundenen Parkplätzen und deren Größe geplottet werden. Das Ergebnis ist [hier](./assets/maps/Darmstadt.html) zu sehen
 
 
 ```python
